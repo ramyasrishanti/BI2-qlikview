@@ -1,0 +1,55 @@
+
+sale:
+LOAD [Actual Delivery Date], 
+     CustKey, 
+     DateKey, 
+     [Discount Amount], 
+     [Invoice Date], 
+     [Invoice Number], 
+     [Item Class], 
+     [Item Number], 
+     Item, 
+     [Line Number], 
+     [List Price], 
+     [Order Number], 
+     [Promised Delivery Date], 
+     [Sales Amount], 
+     [Sales Amount Based on List Price], 
+     [Sales Cost Amount], 
+     [Sales Margin Amount], 
+     [Sales Price], 
+     [Sales Quantity], 
+     [Sales Rep], 
+     [U/M]
+FROM
+LabFile1\DATA\SALESDATA.xls
+(biff, embedded labels, table is [Sheet1$]);
+/*
+LOAD  CustKey,  Item, sum( [Sales Price]) , sum( [Sales Quantity])   Resident sale
+group by  CustKey,Item;*/
+//order by CustKey;
+
+CUSTOMER:
+LOAD [Address Number], 
+     [Business Family], 
+     [Business Unit], 
+     Customer, 
+     [Customer Number] as CustKey , 
+     [Customer Type], 
+     Division, 
+     [Line of Business], 
+     Phone, 
+     [Region Code], 
+     [Regional Sales Mgr], 
+     [Search Type]
+FROM
+LabFile1\DATA\CUSTOMERS.xls
+(biff, embedded labels, table is [CUSTOMERS$]);
+
+
+load 
+      [Sales Price], 
+     [Sales Quantity], 
+     Lookup ('Customer','CustKey',  CustKey, 'CUSTOMER') as name
+     Resident sale
+

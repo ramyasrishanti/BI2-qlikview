@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>11718</QvBuildNo>
+   <CreatorDoc>D:\QlikViewLab\mapp.qvw</CreatorDoc>
+   <CreateUtcTime>2015-02-27 00:52:30</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>cust</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>Address Number</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>10</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>.</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>683</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>3415</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Business Family</FieldName>
+       <BitOffset>39</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>.</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>6</NoOfSymbols>
+       <Offset>3415</Offset>
+       <Length>24</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Business Unit</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>.</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>3439</Offset>
+       <Length>5</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Customer</FieldName>
+       <BitOffset>12</BitOffset>
+       <BitWidth>12</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>.</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>667</NoOfSymbols>
+       <Offset>3444</Offset>
+       <Length>10459</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Customer Number</FieldName>
+       <BitOffset>24</BitOffset>
+       <BitWidth>10</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>.</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>683</NoOfSymbols>
+       <Offset>13903</Offset>
+       <Length>3415</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Customer Type</FieldName>
+       <BitOffset>10</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>.</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>17318</Offset>
+       <Length>12</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Division</FieldName>
+       <BitOffset>45</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>.</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>17330</Offset>
+       <Length>10</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Line of Business</FieldName>
+       <BitOffset>46</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>.</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>17340</Offset>
+       <Length>9</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Phone</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>.</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>17349</Offset>
+       <Length>14</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Region Code</FieldName>
+       <BitOffset>42</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>.</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>6</NoOfSymbols>
+       <Offset>17363</Offset>
+       <Length>30</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Regional Sales Mgr</FieldName>
+       <BitOffset>34</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>.</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>19</NoOfSymbols>
+       <Offset>17393</Offset>
+       <Length>88</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Search Type</FieldName>
+       <BitOffset>47</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>14</nDec>
+         <UseThou>1</UseThou>
+         <Fmt>##############</Fmt>
+         <Dec>.</Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>17481</Offset>
+       <Length>6</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>6</RecordByteSize>
+   <NoOfRecords>684</NoOfRecords>
+   <Offset>17487</Offset>
+   <Length>4104</Length>
+   <Lineage>
+     <LineageInfo>
+       <Discriminator>STORE - cust.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>d:\qlikviewlab\labfile1\data\customers.xls</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>d:\qlikviewlab\labfile1\data\salesdata.xls</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+   </Lineage>
+   <Comment></Comment>
+ </QvdTableHeader>
+ €–˜ E˜˜ G˜˜ H˜˜ I˜˜ J˜˜ L˜˜ M˜˜ N˜˜ R˜˜ U˜˜ W˜˜ X˜˜ Y˜˜ Z˜˜ [˜˜ ^˜˜ `˜˜ a˜˜ f˜˜ h˜˜ p˜˜ q˜˜ s˜˜ u˜˜ v˜˜ Ù˜˜ Ïš˜ o›˜ x˜ z˜ š˜ Âž˜ Ãž˜ Åž˜ Ðž˜ Øž˜ Ùž˜ Úž˜ Ûž˜ Üž˜ Þž˜ àž˜ åž˜ æž˜ éž˜ êž˜ ëž˜ ïž˜ ñž˜ ,Ÿ˜ @Ÿ˜ DŸ˜ ìŸ˜ 9 ˜ E ˜ J ˜ X ˜ ^ ˜ ¡˜ :¡˜ M¡˜ ¢˜ ¢˜ b¤˜ ç¤˜ ¥˜ %¥˜ S¥˜ ‘¥˜ ª¥˜ ï¦˜ §˜ §˜  §˜ N§˜ $¨˜ z¨˜ ª˜ 3ª˜ kª˜ ôª˜ €«˜ t¬˜ ¸¬˜ 2­˜ e­˜ Ÿ­˜ ¢­˜ ®˜ M®˜ ±˜ 4±˜ >±˜ @±˜ N±˜ „±˜ …±˜ ‡±˜ Á±˜ Ç±˜ M²˜ P²˜ Q²˜ R²˜ S²˜ ^²˜ {²˜ ²˜ Õ²˜ Ú²˜ ä²˜ ³˜ ;³˜ ˜³˜ ¡³˜ ¬³˜ ð³˜ ´˜ ´˜ ´˜ '´˜ :µ˜ F¶˜ =·˜ ¸˜ ¸˜ ¸˜ >¸˜ =¹˜ Dº˜ »˜ ¼˜ ¼˜ ¼˜ !¼˜ '¼˜ *¼˜ +¼˜ -¼˜ /¼˜ 2¼˜ 4¼˜ 5¼˜ 6¼˜ 8¼˜ 9¼˜ <¼˜ >¼˜ E¼˜ H¼˜ L¼˜ O¼˜ a¼˜ ½˜ ½˜ 3½˜ ½˜ JÀ˜ ]À˜ ÐÀ˜ çÀ˜ ñÀ˜ Á˜ Á˜ Á˜ Á˜ Á˜ Á˜ Á˜ Á˜  Á˜ "Á˜ +Á˜ 7Á˜ YÁ˜ ZÁ˜ ^Á˜ nÁ˜ ŠÁ˜ ¬Á˜ ÑÁ˜ ÕÁ˜ >Â˜ –Â˜ ÑÂ˜ ÛÂ˜ àÂ˜ Ã˜ CÃ˜ kÃ˜ Ã˜ šÃ˜ ÐÃ˜ çÃ˜ LÄ˜ TÄ˜ VÄ˜ ­Ä˜ ÂÄ˜ ÞÄ˜ Å˜ Å˜ KÅ˜ MÅ˜ ]Å˜ wÅ˜ àÅ˜ ýÅ˜ þÅ˜ Æ˜ BÆ˜ JÆ˜ KÆ˜ ‘Æ˜ ¨Æ˜ ÑÆ˜ ïÆ˜ Ç˜ 	Ç˜ bÇ˜ ¸Ç˜ +È˜ YÈ˜ xÈ˜ È˜ ³È˜ ÕÈ˜ ëÈ˜ ÿÈ˜ SÉ˜ oÉ˜ |É˜ …É˜ —É˜ ˜É˜ ÇÉ˜ ÑÉ˜ Ê˜ 0Ê˜ 6Ê˜ DÊ˜ €Ê˜ ”Ê˜ Ê˜ ÀÊ˜ ÕÊ˜ òÊ˜ Ë˜  Ë˜ EË˜ bË˜ „Ë˜ †Ë˜ æË˜ EÌ˜ ®Ì˜ ¯Ì˜ ËÌ˜ [Í˜ _Í˜ kÍ˜ pÍ˜ Î˜ 8Î˜ Ï˜ Ï˜ Ï˜ EÏ˜ LÏ˜ RÏ˜ Ð˜ ;Ð˜ RÐ˜ SÐ˜ TÐ˜ ZÐ˜ #Ñ˜ 6Ñ˜ Ò˜ #Ò˜ +Ò˜ ]Ò˜ Ó˜ ÆÓ˜ 'Ô˜ -Ô˜ 1Ô˜ PÔ˜ ŽÔ˜ ÔÔ˜ -Õ˜ /Õ˜ qÕ˜ /Ö˜ NÖ˜ ×˜ $×˜ %×˜ 4×˜ L×˜ a×˜ Ø˜ Ø˜ 'Ø˜ ZØ˜ Ù˜ Ù˜ 0Ù˜ 
+Ú˜ Ú˜ "Ú˜ Û˜ (Û˜ 1Û˜ fÛ˜ $Ü˜ <Ü˜ QÝ˜ bÝ˜ 0Þ˜ ;Þ˜ CÞ˜ ÖÞ˜ ß˜ +ß˜ ?ß˜ Dß˜ Tß˜ iß˜ 3à˜ 4à˜ 7à˜ =à˜ Eà˜ Jà˜ †à˜ à˜ úà˜ !á˜ %á˜ Ná˜ zá˜ <â˜ Hâ˜ Râ˜ \â˜ â˜ ®â˜ ¸â˜ ºâ˜ !ã˜ Pã˜ Qã˜ ^ã˜ bã˜ Çã˜ äã˜ 'ä˜ (ä˜ 9ä˜ <ä˜ Eä˜ Iä˜ fä˜ pä˜ ðä˜ Kå˜ Uå˜ Xå˜ `å˜ aå˜ ƒå˜ å˜ —å˜  å˜ ªå˜ ¹å˜ Òå˜ ãå˜ ìå˜ ôå˜ æ˜ $æ˜ &æ˜ )æ˜ =æ˜ ]æ˜ ^æ˜ `æ˜ aæ˜ ‹æ˜ Œæ˜ £æ˜ ç˜ 'ç˜ 6ç˜ 7ç˜ @ç˜ Lç˜ kç˜ ñç˜  è˜ è˜ +è˜ -è˜ 2è˜ 3è˜ ?è˜ Cè˜ bè˜ vè˜ Žè˜ —è˜ óè˜ ÷è˜ é˜ é˜ &é˜ (é˜ 7é˜ ;é˜ @é˜ Aé˜ Sé˜ Té˜ fé˜ gé˜ oé˜ pé˜ wé˜ xé˜ zé˜ –é˜ £é˜ ¦é˜ ±é˜ ´é˜ ¶é˜ ¹é˜ Óé˜ æé˜ ê˜ #ê˜ $ê˜ 'ê˜ *ê˜ .ê˜ Rê˜ Sê˜ ^ê˜ `ê˜ mê˜ vê˜ Çê˜ 	ë˜ $ë˜ )ë˜ -ë˜ hë˜ vë˜ ¢ë˜ ¨ë˜ ªë˜ ¬ë˜ ì˜ 0ì˜ Jì˜ Yì˜ bì˜ lì˜ í˜ í˜ í˜ 'í˜ 9í˜ `í˜ ií˜ lí˜ î˜ î˜ "î˜ ,î˜ 2î˜ 8î˜ Fî˜ Zî˜ ï˜ ï˜ Eï˜ Jï˜ Lï˜ Zï˜ ^ï˜ cï˜ lï˜ 2ð˜ Bð˜ [ð˜ nð˜ oð˜ ,ñ˜ 5ñ˜ Cñ˜ Iñ˜ Lñ˜ kñ˜ ò˜ /ò˜ Aò˜ Gò˜ Uò˜ Vò˜ Wò˜ Yò˜ \ò˜ dò˜ rò˜ ó˜ #ó˜ Mó˜ Oó˜ Pó˜ bó˜ dó˜ gó˜ ió˜ qó˜ ô˜ Cô˜ Fô˜ Iô˜ Jô˜ Pô˜ Vô˜ bô˜ 6õ˜ 8õ˜ ?õ˜ Dõ˜ Fõ˜ Nõ˜ ö˜ ,ö˜ 3ö˜ Lö˜ ]ö˜ fö˜  ÷˜ ÷˜ '÷˜ °÷˜ Ó÷˜ Ô÷˜ Ö÷˜ ×÷˜ Ü÷˜ â÷˜ ì÷˜ î÷˜ 'ø˜ =ø˜ >ø˜ ?ø˜ @ø˜ Aø˜ Hø˜ Iø˜ Jø˜ Lø˜ Mø˜ Nø˜ Oø˜ Pø˜ Yø˜ [ø˜ \ø˜ eø˜ fø˜ gø˜ ~ø˜ Æø˜ ýø˜ ù˜ ù˜ ù˜ ù˜ ù˜ ù˜ ù˜ ù˜  ù˜ !ù˜ "ù˜ #ù˜ $ù˜ 0ù˜ 3ù˜ 5ù˜ Dù˜ Eù˜ Gù˜ Hù˜ Iù˜ Kù˜ Pù˜ Rù˜ Sù˜ Tù˜ Vù˜ Xù˜ Yù˜ ‰ù˜ ù˜ °ù˜ Êù˜ ûù˜ ú˜ $ú˜ 'ú˜ +ú˜ Mú˜ Pú˜ Vú˜ Xú˜ cú˜ gú˜ oú˜ sú˜ ˆú˜ 	û˜ û˜ )û˜ +û˜ 2û˜ ?û˜ Pû˜ Vû˜ –û˜ ¿û˜ ü˜ ü˜ 'ü˜ 6ü˜ Gü˜ Nü˜ ^ü˜ aü˜ ý˜ 3ý˜ 6ý˜ ;ý˜ ^ý˜ `ý˜ lý˜ sý˜ }ý˜ Æý˜ þ˜ þ˜ $þ˜ (þ˜ @þ˜ Uþ˜ nþ˜ Wÿ˜ [ÿ˜ mÿ˜ tÿ˜ * ™ - ™ J ™ o ™ L™ T™ \™ j™ u™ (™ 4™ 7™ ?™ m™ R3 R1 O2 R2 O1 R4    City Supermarket A Supermarket Caribian Supermarket A&B Shop A&G Shop A&R Market Meals Market A1 Store a2i Shop A2Z Store A-2-Z Supermarket Aadast Shop Aaron Store Aaron Supermarket A-ARVIN Store AA-Wizard Shop Abacus Market Abbotsbury Shop Abbott Shop Aberdeen Shop ABI Supermarket AboveNet Shop Abplus Shop ABSolute Shop Absolute Supermarket Abstract Shop Radio Market AC Store AC&E Shop Acacia Shop Acara Shop Acc Supermarket Accel Supermarket Accent Store Accent Market Access Store AccessWare Shop Accidental Shop ACCPAC Store Accrue Shop Accton Shop AccuCom Shop ACCUCOMP Shop AccuLAN Shop Accumedic Store Ace Market Acer Superstore ACES Supermarket ACI Shop ACME Maxiplace ACRON Shop ACS Shop ACS Market Acsior Shop ACT Supermarket Action Supermarket ActionWorld Shop ActivCard Shop Active Shop Active Store Active Supermarket ActiveC Shop activeDesign Shop Ad Supermarket Ad-vantage Shop Age Shop Associates Shop Bechtel Supermarket Beckman Market Beech Supermarket Bell Store Bens Megaplace Bendix Store Benedict Shop Berkeley Supermarket Besicorp Shop Best Supermarket Betacorp Shop Bezeq Shop BF Supermarket BH Supermarket Bibb Store BidCast Shop Bien Supermarket Big Shop Big Supermarket Big Store Bigelow Store BigJobs Shop Bitstream Shop Biz-comm Shop Bizmarts Shop BizNet Supermarket BL Supermarket Boott Store Borden Supermarket Hoovey SuperStore Brazilian Supermarket Brentano's Shop Bre-X Shop Brinco Store C Market C Store C Supermarket C&C Shop C. Store C.O.F. Shop C3 Supermarket C3I Shop Cabco Supermarket Cadtex Shop CAF Market Cajun Shop CalComp Shop Caleidoscopio Supermarket Calypso Maxi Store CAM Market Cambio Shop Cam-Built Supermarket ComeStore Camros Shop Canter Shop CAPCON Shop Capitola Market Capitolnet Supermarket Caprica Supermarket CAPTA Shop Caravelle Shop Carden Supermarket Central Supermarket Champs Gigaplace Chas Market Clearout Shop Dan Store Data Supermarket David Store Day Market Dayton Supermarket Dayton Store Dci Shop DCP Supermarket DCS Store DCS Market DC-Works Shop DDR Shop De Store DEAC Shop Pereras Debenhams Supermarket Debian Shop Deere Store Degolyer Supermarket Del Supermarket E Supermarket Earth Shop East Shop ï¾‰change Store ECI Supermarket ECS Supermarket Ed Store EDA Supermarket EDC Supermarket EDGE Supermarket Edia Shop Edify Shop eDistrict Shop ediSys Shop edit.nl Shop Editor Shop Edmark Shop Edna Megaplace Edorex Supermarket EDP Shop EDS Shop Elbit Market Eloi Supermarket Elucidex Shop Embedded Supermarket EMC Shop e-MDs Shop Emergency Shop Emergent Shop Enterprises Shop Equitable Store Ethyl Store F. Supermarket Farmland Supermarket Farr Market Farrell Supermarket FCS Shop Federal Supermarket Federated Supermarket Felidae Enterprises FenP Supermarket Fentek Market Fenwick Supermarket Ferrari Shop Ferst Shop FiberPlex Shop FIBERWORKS Shop Fibronics Shop FICOM Shop Fifth Supermarket Fifth Store Fileneç—´ Shop Filetron Shop Fills Filmotype Shop Fimetrics Supermarket FIND/SVP Shop Finder Shop Finest Supermarket Finisar Shop Finishing Shop Fins Shop Firehole Shop FireTrans Shop Fokas Midstore G.R. Supermarket Gadzoox Supermarket Gaecom Shop Gailey Market Gainunion Shop Galaxy Store Galaxy Supermarket Gamacles Shop Gamma Supermarket GammaGraphX Store Gammel Group Gandalf Supermarket Ganymede Shop Garbee Supermarket Garlin Supermarket Gartner Supermarket Garza Supermarket Gastown Store Gate Shop Gate9th Shop GateMaster Shop Gatierf Supermarket GCC Store G-Com Supermarket GDC Shop GDSS Shop GE Market Geac Shop GEAR Shop GearSource Shop Gebbie Store Gehlken Supermarket Gemini Supermarket Greymac Trust Company Grove Supermarket Grumman Market Guarantee Supermarket Gulf Market GURUs Shop H.H. Store Harbor Store Harbour Store Harte-Hanks Market Harts Superstore Harvard Supermarket Harvey Shop HarveyOpolis Shop Hauppauge Supermarket Haz-Mat Store HBO Supermarket HBS Shop HCHS Shop HCS Shop Healtheon Shop Hederman Supermarket Hegemony Shop Hekimian Store Helfand Store Helios Shop Helius Shop Hennings Hercules Supermarket Hershey Supermarket hesketh.com Shop Hetrick Supermarket Heurikon Shop Hewlett Supermarket Hidden Market High Supermarket High Store Hill Supermarket HMR Shop Hobart Store Holy Supermarket Home Superstore Home Store Home Market Bounds Megaplace Homestead Market iBEAM Shop IBEX Shop Ibis Shop IBVA Shop Icon Superstore Icon Market Iconation Shop Id Shop Idyll Store Idyllwild Shop iLanguage Shop Illuminati Shop Ilog Shop Kellys Gigastore Lee Megastore J.A. Supermarket J.M. Market J.M. Supermarket Johnson Store Jones Stores Joy Supermarket K Shop K Supermarket K&K Supermarket K&M Supermarket K.C. Supermarket Kabbalah Shop Kaim Supermarket Kari Supermarket Karickal Store Karsings KAT Store Kawneer Market Kazinformcom Shop Kendrick Store Kennecott Supermarket KENROB Megaplace Kensington Market KentISP Shop Kentucky Supermarket Kerite Company KeyComm Shop Keystar Superstore Keystone Store Keystroke Market kGS Shop KillerGraffix Shop Kim Market Kimball Supermarket Kool-Seal Shop Koppers Supermarket Labatt Supermarket Laker Market Lamson Store Levi Supermarket Lewis Supermarket Litton Shop Litton Supermarket Livermore Store LiveWire Supermarket LiveWORLD Shop Livezone Supermarket LMAO superplace Lobster Market Lucky Shop Lynn-Arthur Store Markets Matradi Megastore MATRIX Shop Maui Store MaxBan Shop MaXpeed Shop MAXSTRAT Shop Maxtor Shop Maxwell Supermarket Mb Market McGraw-Hill Supermarket Mead Supermarket Medics Shop Melville Supermarket Mersey Market Metro-Goldwyn-Mayer, Supermarket Miles Supermarket Minneapolis Supermarket Molson Store N.Graphics Shop NACSCORP Shop Nanao Shop Nancy Supermarket Nbase Shop NBTel Shop NBX Stores NECX Market Neeka Shop Nematron Shop Neos Gigaplace Oki Shop Oklahoma Supermarket Old Store OnDeck Store One Store One Market Onebox Shop Onestar Shop Onetouch Supermarket Ottercom Shop Outbreak Shop OutPost Market Output Supermarket Outsource Store Overdreams Shop Owl's Supermarket P.C.G. Supermarket P.C'S Shop Pace Shop Pacel Shop Pacific Supermarket Pacific Gigaplace Pacific Store Pacific Market Pacifico's PacificServ Shop Packard Supermarket Packet Design PADL Shop PAGE Shop Page Store Page Market PageBoy Shop PagePoint Shop PageSites Shop PageWave Megastore PageWeavers Shop Pallister Supermarket Palo Supermarket Panasonic Shop Pangaea Store Panix Shop Panngea Shop Pantech Supermarket Panzl Shop PAP Supermarket Paperless Store Papyrus Shop Papyrus Supermarket Parabole Shop Paracel Gigaplace Paraclipse Shop Parian Market Password Supermarket Pathlight Market Patient Shop Patrick Market Patton Store Paul Store PayMaxx Shop Payton Supermarket Pick Store Picka Superstore PING Shop Ping Shop Pink Supermarket Pinnacle Shop Pinnacle Store Pinnacle Supermarket QualityLogic Shop Quallaby Megaplace QualServe Shop Quantex Supermarket Quantum Shop Quantum Supermarket Qwest Shop R&J Shop R&R Store R.J. Market R2J2 Shop Ra Maxistore Racal Store Racal-Datacom Shop Rave Supermarket Ravenwerks Shop Razorfish Shop RC Shop RC Market Rdlabs Shop Ready-to-Run Shop Real Supermarket RealiDyne Shop Reflex Store Relcom Shop Remedy Shop Renaissance Supermarket Crew Superstore Reuters Supermarket Reveal Supermarket ReviewBooth Shop Revnet Market Revolutionary Supermarket RFI Superstore RKS Shop Road Warriors Robust Store Safe Shop Safetynet Shop Sage Shop Sage Supermarket Sagent Shop SAIC Supermarket Salias Gigaplace Salamander Supermarket Sarcom Shop Diss Gigastore SAS Supermarket SASCO Store SataMine Shop Satronix Shop SAT-SAGEM Supermarket Saturnus Supermarket Satyam Shop Savetz Store Science Store Scientific Supermarket ScotGold Market Scottish Supermarket Screaming Market Screen Supermarket Script Supermarket Siemens Supermarket Sifton Supermarket Sigma Shop Sigma Supermarket Signature Shop Signatures Superstore Smith Supermarket SNC Supermarket Soloman Market Southam Supermarket Southern Supermarket Southwire Store Sterling Store Stone Market Stone Supermarket Sun Supermarket Systems Store T Market T.F.C. Shop T.J.T. Supermarket T.M. Store T3West Shop Tadpole Shop Tag Supermarket TAGnology Shop Tailwind Shop Take Supermarket TAL Store Talarians Taligent Midstore Talkland Shop Tally Store Talou Shop Tampa Market Tampere Shop Tanager Shop Tandy Superstore Tangent Shop Tao Store Taos Supermarket Target Gigstore Target Store TargetedListings Shop Taroch Mexistore Tartanchase Shop Taskers Supermarket Tatters Shop Team Supermarket Teamaker Shop TeamStore Teamsolve Shop Teca-Print Shop TECC Shop Telesat Supermarket Telus Store Texasgulf Market TICOR Shop Time Supermarket Times Store Today Shop Todd Supermarket Toledo Market Towmotor Supermarket Transalta Store TransCanada Store Transylvania Supermarket Tredegar Market Trend Market Trust Supermarket U. Supermarket U.S. Market UBF Shop Ubicco Shop Total Store UKnames.net Shop Ultimate Supermarket Ultra-Image Shop Underwriters Supermarket UniForum Shop Unimedya Shop Uniplex Shop UniPress Shop UNIS Supermarket Unison Medistore Unisys Shop Unisys Supermarket Unitec Maxistore United Market United Store Universal Supermarket Userland Maxistore UTStarGate Shop UUmail Shop VA Supermarket Valicert Midstore Valley Market Valley Store Valpatken Shop ValueClick Shop Vanstars Vector USA Vectrix Shop VEI Shop Velos Supermarket Dellovade, Supermarket Venable Shop Venred Shop Ventana Maxistore WarRoom Store Warsun Supermarket Wasabi Shop Watcom Maxistore Wayne's Market WBM Store WDND Shop We Market Whites PLAINFIELD Market Xcert Shop XCOM Shop Xediom Shop Xenet Shop Xentec Shop Xetron Shop Xilinix Midstore Xtreme Shop XVT Shop Xyplex Shop Xyratex Shop Your Market YourFuture Shop ySecret Shop Yurie Market Zentrum Market Zephyr Shop Zero Market Zeroo Gigastore Zero-Knowledge Supermarket Zilog Shop ZipLip.Com Shop Zitel Shop zNET Shop Zocalo Shop €–˜ E˜˜ G˜˜ H˜˜ I˜˜ J˜˜ L˜˜ M˜˜ N˜˜ R˜˜ U˜˜ W˜˜ X˜˜ Y˜˜ Z˜˜ [˜˜ ^˜˜ `˜˜ a˜˜ f˜˜ h˜˜ p˜˜ q˜˜ s˜˜ u˜˜ v˜˜ Ù˜˜ Ïš˜ o›˜ x˜ z˜ š˜ Âž˜ Ãž˜ Åž˜ Ðž˜ Øž˜ Ùž˜ Úž˜ Ûž˜ Üž˜ Þž˜ àž˜ åž˜ æž˜ éž˜ êž˜ ëž˜ ïž˜ ñž˜ ,Ÿ˜ @Ÿ˜ DŸ˜ ìŸ˜ 9 ˜ E ˜ J ˜ X ˜ ^ ˜ ¡˜ :¡˜ M¡˜ ¢˜ ¢˜ b¤˜ ç¤˜ ¥˜ %¥˜ S¥˜ ‘¥˜ ª¥˜ ï¦˜ §˜ §˜  §˜ N§˜ $¨˜ z¨˜ ª˜ 3ª˜ kª˜ ôª˜ €«˜ t¬˜ ¸¬˜ 2­˜ e­˜ Ÿ­˜ ¢­˜ ®˜ M®˜ ±˜ 4±˜ >±˜ @±˜ N±˜ „±˜ …±˜ ‡±˜ Á±˜ Ç±˜ M²˜ P²˜ Q²˜ R²˜ S²˜ ^²˜ {²˜ ²˜ Õ²˜ Ú²˜ ä²˜ ³˜ ;³˜ ˜³˜ ¡³˜ ¬³˜ ð³˜ ´˜ ´˜ ´˜ '´˜ :µ˜ F¶˜ =·˜ ¸˜ ¸˜ ¸˜ >¸˜ =¹˜ Dº˜ »˜ ¼˜ ¼˜ ¼˜ !¼˜ '¼˜ *¼˜ +¼˜ -¼˜ /¼˜ 2¼˜ 4¼˜ 5¼˜ 6¼˜ 8¼˜ 9¼˜ <¼˜ >¼˜ E¼˜ H¼˜ L¼˜ O¼˜ a¼˜ ½˜ ½˜ 3½˜ ½˜ JÀ˜ ]À˜ ÐÀ˜ çÀ˜ ñÀ˜ Á˜ Á˜ Á˜ Á˜ Á˜ Á˜ Á˜ Á˜  Á˜ "Á˜ +Á˜ 7Á˜ YÁ˜ ZÁ˜ ^Á˜ nÁ˜ ŠÁ˜ ¬Á˜ ÑÁ˜ ÕÁ˜ >Â˜ –Â˜ ÑÂ˜ ÛÂ˜ àÂ˜ Ã˜ CÃ˜ kÃ˜ Ã˜ šÃ˜ ÐÃ˜ çÃ˜ LÄ˜ TÄ˜ VÄ˜ ­Ä˜ ÂÄ˜ ÞÄ˜ Å˜ Å˜ KÅ˜ MÅ˜ ]Å˜ wÅ˜ àÅ˜ ýÅ˜ þÅ˜ Æ˜ BÆ˜ JÆ˜ KÆ˜ ‘Æ˜ ¨Æ˜ ÑÆ˜ ïÆ˜ Ç˜ 	Ç˜ bÇ˜ ¸Ç˜ +È˜ YÈ˜ xÈ˜ È˜ ³È˜ ÕÈ˜ ëÈ˜ ÿÈ˜ SÉ˜ oÉ˜ |É˜ …É˜ —É˜ ˜É˜ ÇÉ˜ ÑÉ˜ Ê˜ 0Ê˜ 6Ê˜ DÊ˜ €Ê˜ ”Ê˜ Ê˜ ÀÊ˜ ÕÊ˜ òÊ˜ Ë˜  Ë˜ EË˜ bË˜ „Ë˜ †Ë˜ æË˜ EÌ˜ ®Ì˜ ¯Ì˜ ËÌ˜ [Í˜ _Í˜ kÍ˜ pÍ˜ Î˜ 8Î˜ Ï˜ Ï˜ Ï˜ EÏ˜ LÏ˜ RÏ˜ Ð˜ ;Ð˜ RÐ˜ SÐ˜ TÐ˜ ZÐ˜ #Ñ˜ 6Ñ˜ Ò˜ #Ò˜ +Ò˜ ]Ò˜ Ó˜ ÆÓ˜ 'Ô˜ -Ô˜ 1Ô˜ PÔ˜ ŽÔ˜ ÔÔ˜ -Õ˜ /Õ˜ qÕ˜ /Ö˜ NÖ˜ ×˜ $×˜ %×˜ 4×˜ L×˜ a×˜ Ø˜ Ø˜ 'Ø˜ ZØ˜ Ù˜ Ù˜ 0Ù˜ 
+Ú˜ Ú˜ "Ú˜ Û˜ (Û˜ 1Û˜ fÛ˜ $Ü˜ <Ü˜ QÝ˜ bÝ˜ 0Þ˜ ;Þ˜ CÞ˜ ÖÞ˜ ß˜ +ß˜ ?ß˜ Dß˜ Tß˜ iß˜ 3à˜ 4à˜ 7à˜ =à˜ Eà˜ Jà˜ †à˜ à˜ úà˜ !á˜ %á˜ Ná˜ zá˜ <â˜ Hâ˜ Râ˜ \â˜ â˜ ®â˜ ¸â˜ ºâ˜ !ã˜ Pã˜ Qã˜ ^ã˜ bã˜ Çã˜ äã˜ 'ä˜ (ä˜ 9ä˜ <ä˜ Eä˜ Iä˜ fä˜ pä˜ ðä˜ Kå˜ Uå˜ Xå˜ `å˜ aå˜ ƒå˜ å˜ —å˜  å˜ ªå˜ ¹å˜ Òå˜ ãå˜ ìå˜ ôå˜ æ˜ $æ˜ &æ˜ )æ˜ =æ˜ ]æ˜ ^æ˜ `æ˜ aæ˜ ‹æ˜ Œæ˜ £æ˜ ç˜ 'ç˜ 6ç˜ 7ç˜ @ç˜ Lç˜ kç˜ ñç˜  è˜ è˜ +è˜ -è˜ 2è˜ 3è˜ ?è˜ Cè˜ bè˜ vè˜ Žè˜ —è˜ óè˜ ÷è˜ é˜ é˜ &é˜ (é˜ 7é˜ ;é˜ @é˜ Aé˜ Sé˜ Té˜ fé˜ gé˜ oé˜ pé˜ wé˜ xé˜ zé˜ –é˜ £é˜ ¦é˜ ±é˜ ´é˜ ¶é˜ ¹é˜ Óé˜ æé˜ ê˜ #ê˜ $ê˜ 'ê˜ *ê˜ .ê˜ Rê˜ Sê˜ ^ê˜ `ê˜ mê˜ vê˜ Çê˜ 	ë˜ $ë˜ )ë˜ -ë˜ hë˜ vë˜ ¢ë˜ ¨ë˜ ªë˜ ¬ë˜ ì˜ 0ì˜ Jì˜ Yì˜ bì˜ lì˜ í˜ í˜ í˜ 'í˜ 9í˜ `í˜ ií˜ lí˜ î˜ î˜ "î˜ ,î˜ 2î˜ 8î˜ Fî˜ Zî˜ ï˜ ï˜ Eï˜ Jï˜ Lï˜ Zï˜ ^ï˜ cï˜ lï˜ 2ð˜ Bð˜ [ð˜ nð˜ oð˜ ,ñ˜ 5ñ˜ Cñ˜ Iñ˜ Lñ˜ kñ˜ ò˜ /ò˜ Aò˜ Gò˜ Uò˜ Vò˜ Wò˜ Yò˜ \ò˜ dò˜ rò˜ ó˜ #ó˜ Mó˜ Oó˜ Pó˜ bó˜ dó˜ gó˜ ió˜ qó˜ ô˜ Cô˜ Fô˜ Iô˜ Jô˜ Pô˜ Vô˜ bô˜ 6õ˜ 8õ˜ ?õ˜ Dõ˜ Fõ˜ Nõ˜ ö˜ ,ö˜ 3ö˜ Lö˜ ]ö˜ fö˜  ÷˜ ÷˜ '÷˜ °÷˜ Ó÷˜ Ô÷˜ Ö÷˜ ×÷˜ Ü÷˜ â÷˜ ì÷˜ î÷˜ 'ø˜ =ø˜ >ø˜ ?ø˜ @ø˜ Aø˜ Hø˜ Iø˜ Jø˜ Lø˜ Mø˜ Nø˜ Oø˜ Pø˜ Yø˜ [ø˜ \ø˜ eø˜ fø˜ gø˜ ~ø˜ Æø˜ ýø˜ ù˜ ù˜ ù˜ ù˜ ù˜ ù˜ ù˜ ù˜  ù˜ !ù˜ "ù˜ #ù˜ $ù˜ 0ù˜ 3ù˜ 5ù˜ Dù˜ Eù˜ Gù˜ Hù˜ Iù˜ Kù˜ Pù˜ Rù˜ Sù˜ Tù˜ Vù˜ Xù˜ Yù˜ ‰ù˜ ù˜ °ù˜ Êù˜ ûù˜ ú˜ $ú˜ 'ú˜ +ú˜ Mú˜ Pú˜ Vú˜ Xú˜ cú˜ gú˜ oú˜ sú˜ ˆú˜ 	û˜ û˜ )û˜ +û˜ 2û˜ ?û˜ Pû˜ Vû˜ –û˜ ¿û˜ ü˜ ü˜ 'ü˜ 6ü˜ Gü˜ Nü˜ ^ü˜ aü˜ ý˜ 3ý˜ 6ý˜ ;ý˜ ^ý˜ `ý˜ lý˜ sý˜ }ý˜ Æý˜ þ˜ þ˜ $þ˜ (þ˜ @þ˜ Uþ˜ nþ˜ Wÿ˜ [ÿ˜ mÿ˜ tÿ˜ * ™ - ™ J ™ o ™ L™ T™ \™ j™ u™ (™ 4™ 7™ ?™ m™ G2 G1 G3           M1 816-455-8733                    S16 S19 S2 S1 S9 S5 S4 S14 S11 S20 S8 S18 S12 S17 S3 S21 S22 S13 S15 C I        $   8 ˆ,D %P  `  x ˆ,€  	 	 
+¨ 
+,´ dÀ Ð  à ð    ”	 ”0$DdP$d $p $ˆ$”d ”° $ÄdÐ %à $ð $   $!!d"$"%#4#d$D$$d%P% $&`& $'p' $(€( $))”%*¨*¨%+°+ ¤,À, $-Ð-”%.è.¨%/ô/,d00d11˜%2(2,3034@405T5d6`6 7t7$8€8 9”9d:¤:d;°;<À< =°= >Ø>4,?à?@ô@dA A$BB”C$CdD0D E@E$FPF $GdGdHpH¸	I„IdJJ K KPL´LdMÀM $NÐN OäO,dPðP $Q Q $RR$S S$T0T$UDUdVTVdW`W$XPX$YtY Z€Z [”[ \¤\ d]°]^À^_Ð_`à` $aða$bbdcc $d d&e4edf@f gPg  h`h ipi j€jdk”k4dl l¸%m°m0%nÀn $oÐo ¤päpdqðq r r $ss%t t%u0u”%v@vŒwPwx`xytydz„z d{{ T| |}°}”~À~¬Ð€à€ð‚ ‚ ƒƒ  „$„d…0… †@† ‡P‡ $ˆdˆd‰p‰  ŠpŠ ‹€‹0%ŒŒ ¤ dŽ¸Ž¼,È¨-Ð ‘à‘ ’ð’ “ 	“À”	”•	•$– 	– —0	—  ˜@	˜ ™P	™”‘šd	šd›x	›,œ€	œ	 Hž 	ž Ÿ°	Ÿ” À	  %¡Ð	¡ $¢à	¢$£ð	£ $¤ 
+¤ ¤¥
+¥l¦ 
+¦ §8
+§,¨@
+¨ˆ©P
+© ª`
+ª«p
+« P¬€
+¬ @­”
+­%® 
+®”¯°
+¯  °À
+°±Ð
+±²à
+²¤$³ð
+³$´ ´ $µµ¨%¶ ¶ d·0·¸@¸¬&¹P¹ $º`º $»p»”%¼€¼ ½½¾ ¾$¿°¿”ÀÀÀ$ÁÐÁ$ÂàÂ¸%ÃèÃ-ÄðÄ $Å Å ÆÆ$Ç Ç $È0È0%É@É ¤ÊPÊ¤ ËdËdÌpÌ Í€Í Î˜Î$Ï¨Ï$Ð°Ð$ÑÀÑ$ÒÐÒ$ÓàÓD ÔðÔ ÕÕ,ÖÖ$× ×”$Ø0Ø$Ù@Ù$ÚPÚ Û`Û˜ ÜpÜ”%Ý€Ý$ÞÞ Tß¤ß dà°à$áÄádâÐâ$ãàã $äðä $å å$æædç ç0%è0è $éHé$êPê $ë`ë $ìxìdí€í%îî ï ï ð°ð  ñÀñ0òÐò%óàó $ôðôˆ%õõ$öö$÷ ÷$ø0øù@ù úPú  û`û $üpü$ý€ý $þþ$ÿ ÿ   ± $Á•%Ñ$å-dñ™	•%•%%d1 	A	1
+Y
+‰,aq1…d‘¡•±ÅdÑ áñd•	))$5dA Q•%a@q$”•d¡ ± •!Á!$"Ñ"$#á# $ñ$%%•%&&¥'!'@(1(1)A)*Q*+a+ ,q,P-‰-½,.•.-d/¡/•0±0@1Á1•	2Ñ2¡ 3á3 4ñ4 55d66),7!7818•9A9:Q: ;a;<q<¥=…=d>•>d?©?),@¹@$AÅA-dBÕBdCáC1%DñDEEdFF•G!G•	H1H@IAITJQJ KeKdLqL1M…M5dN‘NO¡O P±P1%QÁQ$RÑR$SáSTñT1	UU1VV$W!WX1X YIY‰,ZUZd[a[$\q\$]]$^‘^™%_¡_`±`¥ aÁa@bÑbcác9 dõd-dee•%ffg!g1h1hiAijQj•kik5,lql mm1%n‘n1%o¡opµpdqÁq1rÑrsás•%tñt$uu1%vv•%w!w1%x1x1%yEydzQz${e{d|q|$}}$~‘~$¡€±€ Á‚Ñ‚ƒáƒ „ñ„•…	…,††d‡%‡dˆ1ˆ$‰A‰$ŠQŠ•‹a‹ŒuŒdŽ•Žd¡µ%‘Á‘$’Ñ’%“á“$”õ”$••––—!— ˜1˜ ™A™•	šQš•›a›$œqœ$$ž‘ž$Ÿ©Ÿ$ ¹  ¡Á¡•¢Ù¢5,£å£d¤Ñ¤¥ñ¥¦Ñ¦§Ñ§¹	¨¨1	©ù©™,ªª«!«1¬1¬‘­A­$®Q®$¯a¯$°y°5$±±$²‘²$³¡³$´±´$µÁµ‘%¶Ñ¶•%·á·$¸ñ¸•%¹¹$ºº$»!»$¼1¼­
+½A½ ¾Q¾¿a¿™ÀqÀÁÁ1Â‘ÂÃ©Ã,Ä±ÄÁ ÅÁÅ$ÆÑÆ$ÇáÇ$ÈñÈ ÉÉ ÊÊdË%ËdÌ1Ì¤ÍAÍ™$ÎQÎ$ÏeÏdÐqÐ$Ñ…ÑPÑ‘ÑPÒ¡ÒÓ±ÓÔÁÔ@ÕÑÕ•ÖÑÖT×á×!¤ØõØdÙÙ¡ ÚÚÛ%ÛdÜ9Ü,Ý1ÝÞ1Þ ßAß•àQà¡áaáâqâ1ãã@ä‘äå¡åæ±æ@çÁçèÙè,éáéêñê‘ëë•ììdí!í@î5îdïAïðUðdñañ¤òqò@ó‰ó©-ô‘ô¥ õ¡õö±ö@÷Á÷¹øÑø¡ùáù•úñú9ûûPüüý!ýþ5þdÿAÿ R  fÆ$r‚’¢¢¶dÂ@Ö$	â	
+ò
+  d" 2 –B ŠZ $b º	r @‚ Š’ º¦ d¢ ¦º ,Â Ò Hâ 2ò !!&!d2! B! !R!!’"b!" #r!#’$‚!$$%’!%&¢!&'º!'*$(Æ!(d)Ò!)$*â!*–%+ö!+Æ$,",d-"-*$."".–%/2"/$0B"0–1R"1 2f"2d3z"3,4‚"42%5’"5H6¦"6l7²"78Â"89Ò"9 :â":š	;ò";¢<#<¢ =#=>"#>?2#?@F#@%AR#A Bb#BCv#CdD†#D%E–#EdF¢#F–%Gº#G-H²#HIÂ#I$JÖ#J–$Kæ#K%Lò#LM
+$M,N$N–O"$OP2$P¢QB$Q–RR$R–Sb$S Tr$TUŠ$U$V’$V@W¢$WX²$XYÂ$Y–ZÖ$Zd[â$[\ò$\ ]%] ^%^6,_*%_l`"%`a"%ab2%b$cB%cdR%d–¥eb%e®&fr%f$g‚%gº%h’%h$i¢%ijº%j,kÂ%klÒ%l¦mâ%m–nò%nF o&op&pPq"&q r:&r,s2&s–tB&tš	uZ&u*$vb&v$wr&wx‚&xy’&yz¢&z{²&{H|Â&|}Ò&}~æ&~dò&H€
+'€,'.d‚"'‚J$ƒ6'ƒd„B'„ …R'…–†b'† ‡v'‡%ˆŠ'ˆª-‰’'‰ Š¦'Šd‹²'‹ŒÂ'Œ$Ò'Žâ'Žò':($‘(‘d’&(’&d“2(“ ”B(”–•R(•–b(–2—r(—˜‚(˜2™’(™Pš¢(š›²(›œÆ(œdÒ( žâ(ž Ÿú(Ÿ, ) $¡)¡¢")¢–‘£2)£ ¤F)¤d¥R)¥¦b)¦Ž§r)§¨‚)¨©’)©–ª¢)ª2

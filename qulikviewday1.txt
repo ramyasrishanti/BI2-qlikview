@@ -1,0 +1,17 @@
+1)different types of loads
+
+we will see normal load and inline load
+
+
+data to fetch from file ie excel, odbc, oledb..
+
+.qvw and qvd files extensions.....
+
+circular reference problem
+
+how to remove it
+
+
+
+
+

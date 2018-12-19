@@ -1,0 +1,28 @@
+itemno items    jan    feb    mar  apr
+1       pen      200    100     20    200
+2       mobile   2000   0      5000   4000 
+
+
+itemno items  saleMonth   salesAmount
+  1      pen      jan         200
+1        pen       feb        100
+1         pen      mar          20
+1         pen      apr          200
+2        mobile   jan          2000
+2        mobile   feb          0
+2        mobile    mar          5000 
+2        mobile     apr       4000
+
+
+
+
+
+items:
+CrossTable(saleMonth, salesAmount,2)
+LOAD itemno,
+      items,
+     saleMonth, 
+     salesAmount
+FROM
+LabFile1\qv_spending.xls
+(biff, embedded labels, table is [sheet$]);

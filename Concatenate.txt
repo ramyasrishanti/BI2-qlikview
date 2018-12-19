@@ -1,0 +1,46 @@
+Jan:
+LOAD Date, 
+     Food, 
+     Petrol, 
+     Coffee, 
+     Clothes
+FROM
+LabFile1\qv_spending.xls
+(biff, embedded labels, table is [Jan$]);
+
+
+
+feb:
+LOAD Date, 
+     Food, 
+     Petrol, 
+     Coffee, 
+     Clothes
+FROM
+LabFile1\qv_spending.xls
+(biff, embedded labels, table is [Feb$]);
+
+mar:
+LOAD Date, 
+     Food, 
+     Petrol, 
+     Coffee, 
+     Clothes
+FROM
+LabFile1\qv_spending.xls
+(biff, embedded labels, table is [Mar$]);
+NoConcatenate
+
+Apr:
+LOAD Date as d , 
+     Food  as f , 
+     Petrol, 
+     Coffee, 
+     Clothes
+    
+   
+FROM
+LabFile1\qv_spending.xls
+(biff, embedded labels, table is [Apr$]);
+
+// NoConcatenate  for no Concatenation or give alais name to columns

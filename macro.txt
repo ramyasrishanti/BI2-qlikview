@@ -1,0 +1,37 @@
+Sub ExcelExpwCaption 
+     'Set the path where the excel will be saved  
+     filePath = "C:\Test.xls" 
+ 
+     'Create the Excel spreadsheet  
+     Set excelFile = CreateObject("Excel.Application") 
+     excelFile.Visible = true 
+     'Create the WorkBook 
+     Set curWorkBook = excelFile.WorkBooks.Add 
+     'Create the Sheet 
+     Set curSheet = curWorkBook.WorkSheets(1) 
+ 
+     'Get the chart we want to export 
+     Set tableToExport = ActiveDocument.GetSheetObject("CH01") 
+     Set chartProperties = tableToExport.GetProperties 
+     tableToExport.CopyTableToClipboard true 
+ 
+     'Get the caption 
+     chartCaption = tableToExport.GetCaption.Name.v 
+     'MsgBox chartCaption 
+ 
+     'Set the first cell with the caption 
+     curSheet.Range("A1") = chartCaption 
+     'Paste the rest of the chart 
+     curSheet.Paste curSheet.Range("A2") 
+     excelFile.Visible = true 
+ 
+     'Save the file and quit excel 
+     curWorkBook.SaveAs filePath 
+     curWorkBook.Close 
+     excelFile.Quit 
+ 
+     'Cleanup 
+     Set curWorkBook = nothing 
+     Set excelFile = nothing 
+End Sub 
+ 

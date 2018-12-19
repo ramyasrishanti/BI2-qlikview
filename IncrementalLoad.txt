@@ -1,0 +1,69 @@
+sale:
+LOAD ID, 
+     Modified_date, 
+     Product, 
+     Region, 
+     Sales
+FROM
+LabFile1\Sales.xls
+(biff, embedded labels, table is [Sheet1$]);
+
+
+STORE sale into  saleIncrement.qvd;
+
+drop table sale;
+
+
+
+sale:
+LOAD ID, 
+     Modified_date, 
+     Product, 
+     Region, 
+     Sales
+FROM saleIncrement.qvd(qvd);
+
+maxDateTable:
+load  date(max(Modified_date,'MM/DD/YYYY')) as MaxDate 
+Resident sale;
+
+drop table sale;
+
+//LET modifiedDate='12/09/2015';
+LET modifiedDate=peek('MaxDate',0,maxDateTable);
+
+increment:
+LOAD ID, 
+     Modified_date, 
+     Product, 
+     Region, 
+     Sales
+FROM
+LabFile1\Sales.xls
+(biff, embedded labels, table is [Sheet1$])   where Modified_date >$(modifiedDate);
+
+Concatenate
+
+LOAD ID, 
+     Modified_date, 
+     Product, 
+     Region, 
+     Sales
+FROM saleIncrement.qvd(qvd) //insert only
+//FROM saleIncrement.qvd(qvd) where not Exists(ID);  //insert and update
+
+store increment into saleIncrement.qvd(qvd); 
+
+
+
+
+
+
+
+sale:
+LOAD ID, 
+     Modified_date, 
+     Product, 
+     Region, 
+     Sales
+FROM saleIncrement.qvd(qvd);

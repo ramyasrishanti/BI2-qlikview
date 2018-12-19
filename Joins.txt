@@ -1,0 +1,65 @@
+
+MonthDetails:
+LOAD * INLINE [
+    MONTH, MonthName
+    1, jan
+    2, feb
+    3, mar
+    4, apr
+    5, may
+    6, jun
+    7, jul
+    8, aug
+    9, sep
+    10, oct
+    11, nov
+    12, dec
+];
+/*QUALIFY *;
+UNQUALIFY YEAR  ;
+Year:
+LOAD * INLINE [
+YEAR ,MONTH
+2003,Feb
+2009,jun
+2016 ,may];
+UNQUALIFY *;*/
+
+/*Year:
+LOAD * INLINE [
+YEAR ,MONTH as month
+2003,Feb
+2009,jun
+2016 ,may];*/
+
+Year:
+LOAD @1 as YEAR
+ 
+FROM
+Year_To_Display.txt
+(txt, codepage is 1252, no labels, delimiter is '\t', msq);
+
+
+
+
+Sales:
+//inner join (Year)
+//right join(Year)
+// left join(Year)
+//outer join(Year)
+inner keep(Year)
+//Right keep(Year)
+//left keep(Year)
+
+LOAD ID, 
+     TOTAL, 
+     MONTH, 
+     YEAR
+   
+    
+FROM
+[random-data-excel.xls]
+(biff, embedded labels, table is [Sheet1$]);
+
+
+STORE Sales into sales1.qvd 
